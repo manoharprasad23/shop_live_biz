@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  margin: 20px 20%;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 20px 4%;
+  }
+}
+
+.fb-live-video {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}

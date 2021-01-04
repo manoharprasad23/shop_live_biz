@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .shop-live {
+    color: #e5173d;
+}
+
+.header .right-nav {
+    display: flex;
+    width: 30%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.header .right-nav .order-status {
+    color: #39d039;
+}
+
+.header .right-nav .sign-in {
+    color: #8e8ee1;
+}
+
+.header .right-nav span:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
