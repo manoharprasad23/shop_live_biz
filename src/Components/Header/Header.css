@@ -25,6 +25,10 @@
     color: #8e8ee1;
 }
 
+.header .right-nav .sign-in:hover, .header .right-nav .sign-up:hover {
+    cursor: pointer;
+}
+
 .header .right-nav span:not(:last-child) {
     padding-right: 10px;
     border-right: 1px solid grey;
