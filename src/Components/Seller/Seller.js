@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Seller = () => {
+function Seller() {
     return (
         <div>
-            This is seller page.
+            this is seller page...
         </div>
     )
 }
 
-export default Seller 
+export default Seller
