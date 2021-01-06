@@ -1,0 +1,49 @@
+.seller-container {
+    display: flex;
+}
+.image-container .image {
+    height: 70px;
+    width: 70px;
+}
+.fb-live-video {
+    margin-top: 0 !important;
+}
+.product {
+    display: flex;
+    margin: 10px;
+    background-image: linear-gradient(to left, #ccc, transparent);
+}
+.product .price {
+    margin-top: 15px;
+}
+.product .price p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.description {
+    padding-top: 8px;
+    font-size: 12px;
+    margin: 0 10px 0 5px;
+}
+.description p {
+    margin-bottom: 5px;
+}
+.items {
+    margin-left: 10px;
+}
+.Quantity {
+    display: flex;
+}
+.Quantity span{
+    cursor: pointer;
+    width: 10px;
+}
+.Quantity input{
+    width: 20px;
+    text-align: center;
+}
